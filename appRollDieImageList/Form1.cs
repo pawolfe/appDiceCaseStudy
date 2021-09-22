@@ -29,7 +29,7 @@ namespace appRollDieImageList
 
             //Display the dice
             PicDie1.Image = imageList1.Images[die1];
-            MessageBox.Show(die1.ToString());
+       
 
 
 
@@ -58,7 +58,7 @@ namespace appRollDieImageList
 
 
             //calculate the total and display in label
-            total = die1 + die2;
+            total = die1 + 1 + die2;
 
             LblTotal.Text = total.ToString();
 
